@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Morning News</title>
+	<link href="https://cdn.jsdelivr.net/npm/daisyui@2.28.0/dist/full.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="https://kit.fontawesome.com/5cea171390.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<header>
+		<nav class="flex justify-between max-w-7xl mx-auto text-2xl py-3">
+			<span id="date"></span>
+			<ul class="flex " id="top-navbar"></ul>
+			<span class="" >
+				<a href="#" class="rounded-full py-2 px-3 bg-cyan-400 text-center"><i class="fa-brands fa-twitter text-white"></i></a>
+				<a href="#" class="ml-2 rounded-full py-2 px-4 bg-blue-700 text-center"><i class="fa-brands fa-facebook-f text-white"></i></a>
+				<a href="#" class="ml-2 rounded-full py-2 px-3 bg-red-700 text-center"><i class="fa-brands fa-youtube text-white"></i></a>
+				<a href="#" class="ml-2 rounded-full py-2 px-3 bg-amber-400 text-center"><i class="fa-brands fa-instagram text-white"></i></a>
+
+			</span>
+		</nav>
+		<div class="max-w-7xl mx-auto py-6 flex justify-between">
+			<div>
+				
+			</div>
+			<div>
+				<h1 class="text-5xl text-center font-bold text-red-500"><a href="#">Morning News</a></h1>
+			</div>
+			<div class="bg-black rounded-lg px-6 py-3 text-white text-3xl font-semibold">
+				<a href="#">Bangla</a>
+			</div>
+		</div>
+		<!-- mian menu bar section -->
+		<div class="max-w-7xl mx-auto py-3 flex items-center">
+			<div class="text-3xl">
+				<span><i class="fa-solid fa-bars mr-3"></i></span>
+				<span><i class="fa-sharp fa-solid fa-magnifying-glass mr-2"></i></span>
+				<span><i class="fa-solid fa-house mr-2"></i></span>
+			</div>
+			<ul id="main-bar" class="flex text-2xl py-2"></ul>
+		</div>
+		<!-- breaking section -->
+		<div class="p-4 max-w-7xl mx-auto bg-slate-800 text-white text-2xl">
+			<span>
+				<h1>Breaking News</h1>
+			</span>
+		</div>
+	</header>
+	<main>
+		<!-- top news section -->
+		<section class="max-w-7xl mx-auto my-6 grid grid-cols-4 gap-8">
+			<div id="top-news-left"></div>
+			<div class="col-span-2" id="top-news-center"></div>
+			<div id="top-news-right"></div>
+
+		</section>
+		<hr>
+		<hr class="mt-16">
+		<section class="max-w-7xl mx-auto mt-20">
+			<div class="grid grid-cols-4 gap-5" id="recent-news"></div>
+		</section>
+		<!-- spotsLight news  -->
+		<section class="max-w-7xl mx-auto my-20">
+			<h1 class="text-5xl font-bold">SPOTLIGHT</h1>
+			<div class="grid grid-cols-2 gap-4 mt-10">
+	 			<img id="sportLignt-img" class="w-full h-96" src="" alt="">
+	 			<div class="flex flex-col justify-center">
+					<h1 id="sportLignt-header" class="text-4xl font-bold"></h1>
+					<p id="sportLignt-detail" class="text-2xl text-gray-600 mt-8"></p>
+	 			</div>
+	 		</div>
+
+		</section>
+
+
+		
+	</main>
+	<!-- card section  -->
+	<div>
+		
+	</div>
+	<!-- footer section -->
+	<footer class="bg-base-200">
+		<div class="py-14">
+			<h1 class="text-5xl text-center font-bold text-red-500"><a href="#">Morning News</a></h1>
+		</div>
+		<div class="footer p-10  text-base-content max-w-7xl mx-auto">
+		<div>
+			<span class="footer-title">Services</span> 
+			<a class="link link-hover">Branding</a> 
+			<a class="link link-hover">Design</a> 
+			<a class="link link-hover">Marketing</a> 
+			<a class="link link-hover">Advertisement</a>
+		</div> 
+		<div>
+			<span class="footer-title">Company</span> 
+			<a class="link link-hover">About us</a> 
+			<a class="link link-hover">Contact</a> 
+			<a class="link link-hover">Jobs</a> 
+			<a class="link link-hover">Press kit</a>
+		</div> 
+		<div>
+			<span class="footer-title">Legal</span> 
+			<a class="link link-hover">Terms of use</a> 
+			<a class="link link-hover">Privacy policy</a> 
+			<a class="link link-hover">Cookie policy</a>
+		</div>		
+	</div> 
+	</footer>
+<footer class="footer py-4 bg-base-200">
+  <div class="mx-auto">
+	<h1 class=" flex items-center mx-auto"><span>Follow Us :</span> 
+		<span class="flex" >
+				
+				<a href="#" class="ml-2 p-2 rounded-full px-3  bg-cyan-400 text-center"><i class="fa-brands fa-twitter text-white text-2xl"></i></a>
+				<a href="#" class="ml-2 p-2 rounded-full px-4  bg-blue-700 text-center"><i class="fa-brands fa-facebook-f text-white text-2xl"></i></a>
+				<a href="#" class="ml-2  p-2 rounded-full px-3 bg-red-700 text-center"><i class="fa-brands fa-youtube text-white text-2xl"></i></a>
+				<a href="#" class="ml-2 p-2 rounded-full px-3 bg-amber-400 text-center"><i class="fa-brands fa-instagram text-white text-2xl"></i></a>
+
+			</span>
+	</h1>
+	
+    <ul class="flex gap-7 text-2xl">
+		<li>Disclaimer & Privacy Policy</li>
+		<li>About Us</li>
+		<li>Contact Us</li>
+	</ul>
+  </div> 
+  <div class="md:place-self-center md:justify-self-end">
+    <div class="grid grid-flow-col gap-4">
+      
+		
+    </div>
+  </div>
+</footer>
+<footer class="footer h-40 bg-slate-700 text-center">
+	<h1  class="mx-auto my-auto text-3xl font-semibold text-white">Copyright© 2022, Morning News</h1>
+
+</footer>
+	
+
+	<script src="./js/script.js"></script>
+</body>
+</html>
